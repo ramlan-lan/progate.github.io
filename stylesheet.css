@@ -16,7 +16,9 @@ a {
 }
 
 .container {
+  /* Ubah max-width ke 1170px */
   max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -114,14 +116,6 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
-}
-
-.menu-icon{
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
 }
 
 .lesson-wrapper {
